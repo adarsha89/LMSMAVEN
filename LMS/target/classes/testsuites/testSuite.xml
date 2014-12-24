@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Suite1" parallel="tests">
+ <test name="FirefoxTest" preserve-order="true">
+ <parameter name="browser" value="Firefox" />
+ <classes>
+ <class name="net.cloudbees.login.TestFactoryCreator" />
+ </classes>
+ </test> 
+<!--  <test name="IETest" preserve-order="true">
+ <parameter name="browser" value="IE" />
+ <classes>
+ <class name="net.cloudbees.login.TestFactoryCreator" />
+ </classes> 
+ </test>-->
+ <test name="ChromeTest" preserve-order="true">
+ <parameter name="browser" value="Chrome" />
+ <classes>
+ <class name="net.cloudbees.login.TestFactoryCreator" />
+ </classes> 
+ </test>  
+ </suite>
