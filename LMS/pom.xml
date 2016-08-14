@@ -5,8 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>LMS</name>
-  <description>Leave Management System
-Leave Management System</description>
+  <description>Leave Management System</description>
   <build>
     <testSourceDirectory>src/main/test</testSourceDirectory>
     <plugins>
